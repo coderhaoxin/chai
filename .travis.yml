@@ -1,8 +1,4 @@
 language: go
 go:
-  - 1.5
   - tip
-install:
-  - go get github.com/franela/go-supertest
-  - go get github.com/justinas/alice
-  - go get github.com/go-zoo/bone
+  - 1.7
